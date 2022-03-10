@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  trident-operator:
+  - apiVersion: v2
+    appVersion: 22.01.0
+    created: "2022-03-10T16:00:46.905163047+05:30"
+    description: A Helm chart for deploying NetApp's Trident CSI storage provisioner
+      using the Trident Operator.
+    digest: 7801c261acf7c1b7440f0796566093a67a9e719005450500876a1b56519127e3
+    home: https://github.com/NetApp/trident
+    icon: https://raw.githubusercontent.com/NetApp/trident/master/logo/trident.png
+    keywords:
+    - NetApp
+    - Trident
+    - operator
+    - CSI
+    kubeVersion: '>= 1.17.0-0'
+    name: trident-operator
+    type: application
+    urls:
+    - https://wizardtales.github.io/tridentrealhelmrepo/trident-operator-22.01.0.tgz
+    version: 22.01.0
+generated: "2022-03-10T16:00:46.90462643+05:30"
